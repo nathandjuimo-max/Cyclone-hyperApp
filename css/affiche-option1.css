@@ -1,39 +1,82 @@
-/*.butt-porte-option-principal{
-    color: white;
-    width: 20vw;
-    height: auto;
-    border: dashed 2px;
-    text-align: center;
-    margin: 2vh;
-    border-radius: 10px;
-    margin-left: 1vW;
-}*/
-.butt-porte-option-principal:hover{
-    border: solid white;
-    background-color: white;
-    opacity: 90%;
-    color: black;
-    cursor: pointer;
-}
+
 #option1{
     display:block;
     overflow-y: scroll;
     overflow-x: hidden;
     /*background-image: url(image/service-de-reparation.png);*/
     background-repeat: no-repeat;
+    padding: 0px;
+    width: auto;
+    height: 100vh;
 }
 .butt-porte-option-principal {
     color: white;
     width: 20vw;
     max-width: 300px;
+    min-width: 300px;
+    height: 24vh;
+    border: 1px solid rgba(255,255,255,0.6);
+    border-radius: 10px;
+    margin-top: -7px;
+    margin-left: 1vw;
+    text-align: center;
+    padding: 1rem;
+
+    background-color: #2b2a33;
+    box-sizing: border-box;
+}
+.butt-porte-option-principal:hover{
+    border: solid white;
+    background-color: white;
+    opacity: 90%;
+    color: black;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+.new-btn-orange{
+    background-color: orange;
+    color: white;
+    width: 20vw;
+    max-width: 300px;
     min-width: 200px;
 
-    border: 2px dashed rgba(255,255,255,0.6);
+    border: 2px solid rgba(255,165,0,0.6);
     border-radius: 10px;
 
     text-align: center;
     padding: 1rem;
-    margin: 1rem;
-
+    margin: 0rem;
+    margin-top: 1rem;
     box-sizing: border-box;
+}
+.new-btn-orange:hover{
+    background-color: #555;
+    border: none;
+}
+.accueil-prest{
+    width: auto;
+    height: 73vh;
+    background-position: center;
+    background-size: cover;
+    padding-left: 2vw;
+    color: black;
+}
+.img-accueil{
+    margin-top: 2vh;
+    width: 80px;
+    height: 80px;
+}
+hr{
+    margin-top: 3vh;
+   height: 1px; 
+}
+.recommandation{
+    width: 35vw;
+    height: 35vh;
+    border: solid gray 1px;
+    border-radius: 5px;
+    margin: 1vh;
+    background-position: center;
+    background-size: cover;
+    color: orange;
 }
