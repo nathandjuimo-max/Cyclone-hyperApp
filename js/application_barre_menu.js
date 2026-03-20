@@ -120,7 +120,7 @@ const neo2=`
             <img src="image/homme.png" alt="" class="profil-img" style="border: 1px solid gray;">
                 <div>
                     <h2 style="margin: 0px; width: 20vw;">${profil_kendra.nom}</h2>
-                    <H4 style="margin: 0px; margin-top: 0.5vh;">${profil_pechel.categorie}</H4>
+                    <H4 style="margin: 0px; margin-top: 0.5vh;">${profil_kendra.categorie}</H4>
                                         
                 </div>
                 <img src="image/verifie.png" alt="profil vérifier" class="profil-verifier">

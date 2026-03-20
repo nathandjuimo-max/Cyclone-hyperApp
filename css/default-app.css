@@ -73,13 +73,13 @@ body{
     height: auto;
     min-height: 5vh;
     background-color: orange;
-    text-align: center;padding-top: 1vh;
     border-radius: 10px;
     cursor: pointer;
-    margin-top: 1vh;
+    margin-top: 2vh;
     color: white;
     outline: none;
     border: none;
+    text-align: center;
 }
 .normal-butt-blue{
     display: flex;
@@ -148,6 +148,7 @@ body{
 }
 .container::-webkit-scrollbar-thumb:hover {
   background: #555;
+ /* background-image: url("../image/");*/
 }
 .barre_de_recherche{
     margin-top:2vh;
